@@ -1,6 +1,6 @@
 /******************************************ÖDEV-2 SORU-1 START********************************************/
 console.log("SORU-1****START***")
-function isPrime(x) {
+function isPrime(x) { // Gönderilen sayınınn ASAL olup olmadığını true-false olarak dönen bir fonksiyon.
     if (x > 1) {
         for (let i = 2; i < x - 1; i++) {
             if (x % i == 0) {
@@ -12,7 +12,7 @@ function isPrime(x) {
         return false
     }
 }
-function findPrime(numbers) {
+function findPrime(numbers) { // Gönderilen Sayıların yanlarına asal olup olmadıklarını yazan ve dönen bir Fonksiyon.
     numbers.forEach(x => {
         if (isPrime(x)) {
             console.log(x + " Asal Sayıdır.");
@@ -28,7 +28,7 @@ console.log("SORU-1****FİNİSH***")
 
 /******************************************ÖDEV-2 SORU-2 START********************************************/
 console.log("SORU-2****START***")
-function isFriendNumbers(number1, number2) {
+function isFriendNumbers(number1, number2) { // Arkadaş Sayıları Tespit eden bir Fonksiyon.
     let total1 = 0
     let total2 = 0
     for (let i = 1; i < number1 - 1; i++) {
@@ -55,7 +55,7 @@ console.log("SORU-2****FİNİSH***")
 
 /******************************************ÖDEV-2 SORU-3 START********************************************/
 console.log("SORU-3****START***")
-function isPerfectNumber(number1) {
+function isPerfectNumber(number1) { //Mükemmel Sayıları Tespit eden bir Fonksiyon.
     let total = 0
     for (let i = 1; i <= number1; i++) {
         if (number1 % i == 0) {
