@@ -14,7 +14,6 @@ function isPrime(x) {
 }
 function findPrime(numbers) {
     numbers.forEach(element => {
-
         if (isPrime(element)) {
             console.log(element + " Asal Sayıdır.");
         } else {
