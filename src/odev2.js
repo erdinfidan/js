@@ -75,7 +75,7 @@ console.log("SORU-3****FİNİSH***")
 console.log("SORU-4****START***")
 let primeNumbers=[]
 for (let i = 1; i <= 1000; i++) {
-    if(isPrime(i)){ // soru 1 de kullanılan fonksiyon kullanıldı.******DONT REPEAT YOURSELF***** :)))
+    if(isPrime(i)){ // SORU-1'de kullanılan fonksiyon kullanıldı.******DONT REPEAT YOURSELF***** :)))
     primeNumbers.push(i)
     }    
 }
