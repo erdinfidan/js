@@ -13,11 +13,11 @@ function isPrime(x) {
     }
 }
 function findPrime(numbers) {
-    numbers.forEach(element => {
-        if (isPrime(element)) {
-            console.log(element + " Asal Sayıdır.");
+    numbers.forEach(x => {
+        if (isPrime(x)) {
+            console.log(x + " Asal Sayıdır.");
         } else {
-            console.log(element + " Asal Sayı Değildir.");
+            console.log(x + " Asal Sayı Değildir.");
         }
     });
 };
