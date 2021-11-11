@@ -9,7 +9,7 @@ let cart= [
 ]
 console.log("<ul>")
 cart.map(x=>{
-   console.log("<li>"+x.productName + ":"+x.unitePrice*x.quantity+"</li>")
+   console.log("<li>"+x.productName + ":"+x.unitePrice*x.quantity+"</li>") 
 })
 console.log("</ul>")
 
